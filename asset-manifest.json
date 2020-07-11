@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/azsoft/static/css/main.12052213.chunk.css",
+    "main.js": "/azsoft/static/js/main.1860295d.chunk.js",
+    "main.js.map": "/azsoft/static/js/main.1860295d.chunk.js.map",
+    "runtime-main.js": "/azsoft/static/js/runtime-main.f238f554.js",
+    "runtime-main.js.map": "/azsoft/static/js/runtime-main.f238f554.js.map",
+    "static/js/2.fcebd4e2.chunk.js": "/azsoft/static/js/2.fcebd4e2.chunk.js",
+    "static/js/2.fcebd4e2.chunk.js.map": "/azsoft/static/js/2.fcebd4e2.chunk.js.map",
+    "index.html": "/azsoft/index.html",
+    "precache-manifest.2b6d9801f9fce3f4aa6e2b06940aef8f.js": "/azsoft/precache-manifest.2b6d9801f9fce3f4aa6e2b06940aef8f.js",
+    "service-worker.js": "/azsoft/service-worker.js",
+    "static/css/main.12052213.chunk.css.map": "/azsoft/static/css/main.12052213.chunk.css.map",
+    "static/js/2.fcebd4e2.chunk.js.LICENSE.txt": "/azsoft/static/js/2.fcebd4e2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f238f554.js",
+    "static/js/2.fcebd4e2.chunk.js",
+    "static/css/main.12052213.chunk.css",
+    "static/js/main.1860295d.chunk.js"
+  ]
+}
