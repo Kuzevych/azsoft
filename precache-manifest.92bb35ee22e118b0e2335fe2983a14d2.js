@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a911aa7b97eae1eff21347d46a79d85",
+    "revision": "fec0e806e805d23d1f7fbdc4d4369270",
     "url": "/azsoft/index.html"
   },
   {
-    "revision": "358992cbd1587cfff3be",
+    "revision": "de96c524ca0335960831",
     "url": "/azsoft/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/azsoft/static/js/2.933f9392.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "358992cbd1587cfff3be",
-    "url": "/azsoft/static/js/main.737cfb1e.chunk.js"
+    "revision": "de96c524ca0335960831",
+    "url": "/azsoft/static/js/main.cbae4a74.chunk.js"
   },
   {
     "revision": "1c4ea83005db0b96e515",
