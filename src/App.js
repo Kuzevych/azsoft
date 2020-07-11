@@ -24,7 +24,7 @@ const App = () => {
     const ips = getPossibleIPs(value);
     return (
             <Container maxWidth="sm" className={classes.container}>
-                <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '70vh' }}>
+                <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '75vh' }}>
                     <form className={classes.root} noValidate autoComplete="off">
                         <TextField
                             onChange={handleInput}
