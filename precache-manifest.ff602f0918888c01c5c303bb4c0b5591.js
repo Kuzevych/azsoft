@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1f36effc13710259d05be5bff49f6cd",
+    "revision": "7a911aa7b97eae1eff21347d46a79d85",
     "url": "/azsoft/index.html"
   },
   {
-    "revision": "2cd62cb52d0f8598fb10",
+    "revision": "358992cbd1587cfff3be",
     "url": "/azsoft/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "fa86868367025466be25",
-    "url": "/azsoft/static/js/2.a3622d0a.chunk.js"
+    "revision": "1ff90d8f2afde9d0c1bf",
+    "url": "/azsoft/static/js/2.933f9392.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/azsoft/static/js/2.a3622d0a.chunk.js.LICENSE.txt"
+    "url": "/azsoft/static/js/2.933f9392.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2cd62cb52d0f8598fb10",
-    "url": "/azsoft/static/js/main.0e4b4aa7.chunk.js"
+    "revision": "358992cbd1587cfff3be",
+    "url": "/azsoft/static/js/main.737cfb1e.chunk.js"
   },
   {
     "revision": "1c4ea83005db0b96e515",
