@@ -7,44 +7,41 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
 import {getPossibleIPs} from "./utils/getPossibleIPs";
-import { onlyNumberValidation } from './utils/validate';
+import { filterDigits } from './utils/filterDigits';
 import {useStyles} from "./style/useStyles";
 
 
 
 const App = () => {
-    const [str, setStr] = useState(null);
-    const [ips, setIps] = useState([]);
-
+    const [value, setValue] = useState('');
     const handleInput = ({ target: { value } }) => {
-        const val = onlyNumberValidation(value);
-        setStr(val);
-        const ips = getPossibleIPs(val);
-        setIps(ips)
+        const val = filterDigits(value);
+        setValue(val);
+
     };
 
     const classes = useStyles();
-
+    const ips = getPossibleIPs(value);
     return (
             <Container maxWidth="sm" className={classes.container}>
-                <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '60vh' }}>
+                <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '70vh' }}>
                     <form className={classes.root} noValidate autoComplete="off">
                         <TextField
                             onChange={handleInput}
                             id="outlined-basic"
-                            value={str}
+                            value={value}
                             label="Input numbers"
                             variant="outlined"
                         />
                     </form>
-                    {ips.length === 0 && str ? (
+                    {ips.length === 0 && value ? (
                         <Typography variant="h6" className={classes.title}>
-                            Error, we haven't ipv4 variants
+                            No IPs can be formed with this input
                         </Typography>
                     ) : (
                         <List>
-                            {ips.map((el) => (
-                                <ListItem key={Math.random()} className={classes.listItem}>
+                            {ips.map((el, idx) => (
+                                <ListItem key={idx} className={classes.listItem}>
                                     <ListItemText primary={el} />
                                 </ListItem>
                             ))}
