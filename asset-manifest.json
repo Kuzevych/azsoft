@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/azsoft/static/css/main.12052213.chunk.css",
-    "main.js": "/azsoft/static/js/main.1860295d.chunk.js",
-    "main.js.map": "/azsoft/static/js/main.1860295d.chunk.js.map",
+    "main.css": "/azsoft/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/azsoft/static/js/main.568b2bee.chunk.js",
+    "main.js.map": "/azsoft/static/js/main.568b2bee.chunk.js.map",
     "runtime-main.js": "/azsoft/static/js/runtime-main.f238f554.js",
     "runtime-main.js.map": "/azsoft/static/js/runtime-main.f238f554.js.map",
-    "static/js/2.fcebd4e2.chunk.js": "/azsoft/static/js/2.fcebd4e2.chunk.js",
-    "static/js/2.fcebd4e2.chunk.js.map": "/azsoft/static/js/2.fcebd4e2.chunk.js.map",
+    "static/js/2.a3622d0a.chunk.js": "/azsoft/static/js/2.a3622d0a.chunk.js",
+    "static/js/2.a3622d0a.chunk.js.map": "/azsoft/static/js/2.a3622d0a.chunk.js.map",
     "index.html": "/azsoft/index.html",
-    "precache-manifest.291729f52e57ab5d3fb76e025d4406c1.js": "/azsoft/precache-manifest.291729f52e57ab5d3fb76e025d4406c1.js",
+    "precache-manifest.fb22f8bfea61c0d7aae6c92f6480047a.js": "/azsoft/precache-manifest.fb22f8bfea61c0d7aae6c92f6480047a.js",
     "service-worker.js": "/azsoft/service-worker.js",
-    "static/css/main.12052213.chunk.css.map": "/azsoft/static/css/main.12052213.chunk.css.map",
-    "static/js/2.fcebd4e2.chunk.js.LICENSE.txt": "/azsoft/static/js/2.fcebd4e2.chunk.js.LICENSE.txt"
+    "static/css/main.5ecd60fb.chunk.css.map": "/azsoft/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.a3622d0a.chunk.js.LICENSE.txt": "/azsoft/static/js/2.a3622d0a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f238f554.js",
-    "static/js/2.fcebd4e2.chunk.js",
-    "static/css/main.12052213.chunk.css",
-    "static/js/main.1860295d.chunk.js"
+    "static/js/2.a3622d0a.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.568b2bee.chunk.js"
   ]
 }
