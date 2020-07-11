@@ -6,7 +6,7 @@ export const getPossibleIPs = (rawIpStr) => {
     for (let dot1I = 1; dot1I <= length - 3; dot1I++) {
         for (let dot2I = 2; dot2I <= length - 2; dot2I++) {
             for (let dot3I = 3; dot3I <= length - 1; dot3I++) {
-                if (dot2I - dot1I >= 2 && dot3I - dot2I >= 2) {
+                if (dot2I - dot1I >= 1 && dot3I - dot2I >= 1) {
                     possibleDotsIndexes.push([dot1I, dot2I, dot3I]);
                 }
             }
