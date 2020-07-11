@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to project build [AZSoft.rocks - test](https://kuzevych.github.io/azsoft/)
 
 ## Available Scripts
 
